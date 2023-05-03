@@ -1,0 +1,14 @@
+{
+    "timeZone": "Asia/Tokyo",
+    "exceptionLogging": "STACKDRIVER",
+    "runtimeVersion": "V8",
+    "dependencies": {
+      "libraries": [
+        {
+          "userSymbol": "HtmlParser",
+          "version": "2",
+          "libraryId": "1JTLPVXGW6Pq4zSAV5ED9XrWOPydVywumQZSOWN7l6KJ0UtWxtX3RbYO6"
+        }
+      ]
+    }
+  }

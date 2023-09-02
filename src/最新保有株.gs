@@ -114,8 +114,8 @@ async function updateStocksHolding() {
       /*
       シート「【株】自動生成：最新保有株」のデータ入れ直し
       */
-      // ヘッダを除く2行目以降の行を削除
-      sheetStocksHolding.deleteRows(2, lastRowNumStocksHolding);
+      // ヘッダを除く2行目以降の行をクリア
+      sheetStocksHolding.getRange(2, 1, lastRowNumStocksHolding, headerStocksHolding.length).clear();
       if (rowsStockHolding.length > 0) {
         // 2行目以降にデータを書き込み
         // console.log(2, 1, rowsStockHolding.length, Object.keys(mapIdxColStocksHolding).length);
